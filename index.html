@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Savannah Vasher - Personal Portfolio showcasing experience, technical skills, and featured projects.">
+  <meta name="author" content="Savannah Vasher">
+  <title>Savannah Vasher | Portfolio</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <!-- Site Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="./index.html" class="brand-logo" id="brand-home-link">
+        <span class="brand-badge">SV</span>
+        <span>Savannah Vasher</span>
+      </a>
+
+      <!-- Accessible pure-CSS responsive mobile toggle -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="nav-menu" aria-label="Primary Navigation">
+        <a href="./index.html" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="./project.html" class="nav-link">Projects</a>
+        <a href="./resume.html" class="nav-link">Resume</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow">Welcome to my portfolio</span>
+          <h1>Savannah Vasher</h1>
+          <p class="hero-subtitle">Software Engineer &amp; Creative Problem Solver</p>
+          <p class="hero-text">
+            Welcome! I am a passionate technologist dedicated to building thoughtful, scalable, and human-centered digital experiences. Explore my background, technical skill set, and recent projects below.
+          </p>
+          <div class="btn-group">
+            <a href="./project.html" class="btn btn-primary" id="hero-cta-projects">View Projects &rarr;</a>
+            <a href="./resume.html" class="btn btn-outline-gold" id="hero-cta-resume">View Resume</a>
+            <a href="#contact" class="btn btn-outline-gold" id="hero-cta-contact">Get in Touch</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="portrait-frame">
+            <div class="portrait-placeholder">
+              <div class="portrait-icon" aria-hidden="true">&#9733;</div>
+              <h3>Savannah Vasher</h3>
+              <p style="font-size: 0.9rem; margin-top: 0.5rem;">[ Add your headshot or personal photo here ]</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-intro">
+          <span class="eyebrow">Background</span>
+          <h2>About Me</h2>
+          <p>A blend of technical precision, creative vision, and continuous learning.</p>
+        </div>
+
+        <div class="about-grid">
+          <div>
+            <h3>Hello, I'm Savannah.</h3>
+            <p>
+              I am a technology professional with a drive for solving complex problems through clean architecture and intentional design. My journey revolves around learning cutting-edge technologies and turning ideas into impactful realities.
+            </p>
+            <p>
+              Whether collaborating with cross-functional teams, building intuitive interfaces, or optimizing back-end workflows, I bring curiosity, persistence, and attention to detail to every endeavor.
+            </p>
+            <p>
+              Outside of work, I enjoy exploring new creative tools, contributing to community initiatives, and continuously expanding my technical knowledge base.
+            </p>
+          </div>
+
+          <div>
+            <div class="about-highlights">
+              <div class="highlight-card">
+                <strong>03+</strong>
+                <span>Years of Technology Experience</span>
+              </div>
+              <div class="highlight-card">
+                <strong>10+</strong>
+                <span>Completed Projects &amp; Demos</span>
+              </div>
+              <div class="highlight-card">
+                <strong>100%</strong>
+                <span>Commitment to Code Quality</span>
+              </div>
+              <div class="highlight-card">
+                <strong>Open</strong>
+                <span>To New Opportunities &amp; Roles</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-intro">
+          <span class="eyebrow">Expertise</span>
+          <h2>Skills &amp; Capabilities</h2>
+          <p>Technologies, tools, and methodologies I leverage to bring solutions to life.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1 -->
+          <div class="skill-category-card">
+            <h3 class="skill-category-title">&#128187; Languages &amp; Core</h3>
+            <div class="skill-pills">
+              <span class="skill-pill">HTML5</span>
+              <span class="skill-pill">CSS3 / SASS</span>
+              <span class="skill-pill">JavaScript (ES6+)</span>
+              <span class="skill-pill">TypeScript</span>
+              <span class="skill-pill">Python</span>
+              <span class="skill-pill">SQL</span>
+            </div>
+          </div>
+
+          <!-- Category 2 -->
+          <div class="skill-category-card">
+            <h3 class="skill-category-title">&#9881;&#65039; Frameworks &amp; Web</h3>
+            <div class="skill-pills">
+              <span class="skill-pill">React</span>
+              <span class="skill-pill">Node.js</span>
+              <span class="skill-pill">RESTful APIs</span>
+              <span class="skill-pill">Responsive Design</span>
+              <span class="skill-pill">CSS Grid &amp; Flexbox</span>
+              <span class="skill-pill">Semantic Web</span>
+            </div>
+          </div>
+
+          <!-- Category 3 -->
+          <div class="skill-category-card">
+            <h3 class="skill-category-title">&#128295; Tools &amp; Workflow</h3>
+            <div class="skill-pills">
+              <span class="skill-pill">Git &amp; GitHub</span>
+              <span class="skill-pill">VS Code</span>
+              <span class="skill-pill">Command Line (Zsh/Bash)</span>
+              <span class="skill-pill">GitHub Pages</span>
+              <span class="skill-pill">Figma / UI Design</span>
+              <span class="skill-pill">Agile Methodologies</span>
+            </div>
+          </div>
+
+          <!-- Category 4 -->
+          <div class="skill-category-card">
+            <h3 class="skill-category-title">&#128101; Professional Skills</h3>
+            <div class="skill-pills">
+              <span class="skill-pill">Analytical Thinking</span>
+              <span class="skill-pill">Technical Writing</span>
+              <span class="skill-pill">Team Collaboration</span>
+              <span class="skill-pill">Problem Solving</span>
+              <span class="skill-pill">Project Planning</span>
+              <span class="skill-pill">Mentorship</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-intro">
+          <span class="eyebrow">Career Path</span>
+          <h2>Professional Experience</h2>
+          <p>A chronological overview of my professional roles, milestones, and contributions.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Timeline Item 1 -->
+          <article class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="timeline-role">Software Engineer / Specialist</h3>
+                <span class="timeline-date">2024 &mdash; Present</span>
+              </div>
+              <div class="timeline-company">Company / Organization Name &bull; City, State</div>
+              <ul class="timeline-list">
+                <li>Engineered high-performance web applications and modular UI components adhering to modern accessibility and responsiveness standards.</li>
+                <li>Collaborated with multidisciplinary teams including designers, product owners, and QA engineers to deliver timely milestones.</li>
+                <li>Identified bottlenecks in application workflows and optimized load times by over 25%.</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Timeline Item 2 -->
+          <article class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="timeline-role">Associate Developer / Analyst</h3>
+                <span class="timeline-date">2022 &mdash; 2024</span>
+              </div>
+              <div class="timeline-company">Previous Organization Name &bull; City, State</div>
+              <ul class="timeline-list">
+                <li>Built automated scripts and interactive dashboards to streamline internal reporting and data visibility.</li>
+                <li>Authored technical documentation, onboarding guides, and standard operating procedures for engineering peers.</li>
+                <li>Participated in peer code reviews, continuous integration pipelines, and regression testing cycles.</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Timeline Item 3 -->
+          <article class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="timeline-role">Technical Project Intern</h3>
+                <span class="timeline-date">2021 &mdash; 2022</span>
+              </div>
+              <div class="timeline-company">Innovation Lab / University &bull; City, State</div>
+              <ul class="timeline-list">
+                <li>Assisted senior staff in prototyping client-facing web tools and modernizing legacy codebases.</li>
+                <li>Researched emerging software development tools, presenting actionable findings to leadership.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="./resume.html" class="btn btn-outline" id="btn-full-resume">View Full Detailed Resume &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Teaser -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-intro">
+          <span class="eyebrow">Work Samples</span>
+          <h2>Featured Projects</h2>
+          <p>A glimpse into recent engineering and design projects.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Featured Project Card 1 -->
+          <article class="project-card">
+            <div class="project-media">
+              <div class="project-media-icon" aria-hidden="true">&#128187;</div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Interactive Analytics Dashboard</h3>
+              <p class="project-desc">A responsive data visualization platform offering real-time metric tracking, intuitive filtering, and customized reporting.</p>
+              <div class="project-tags">
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">HTML5/CSS3</span>
+                <span class="project-tag">Chart.js</span>
+              </div>
+              <div class="project-links">
+                <a href="./project.html#project-1" class="btn btn-outline btn-sm">Read Case Study</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Featured Project Card 2 -->
+          <article class="project-card">
+            <div class="project-media">
+              <div class="project-media-icon" aria-hidden="true">&#9889;</div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Task &amp; Workflow Automator</h3>
+              <p class="project-desc">A web application designed to orchestrate repetitive digital workflows, manage recurring schedules, and export structured logs.</p>
+              <div class="project-tags">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">API Integration</span>
+                <span class="project-tag">CSS Grid</span>
+              </div>
+              <div class="project-links">
+                <a href="./project.html#project-2" class="btn btn-outline btn-sm">Read Case Study</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Featured Project Card 3 -->
+          <article class="project-card">
+            <div class="project-media">
+              <div class="project-media-icon" aria-hidden="true">&#128200;</div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Client Brand &amp; Web Experience</h3>
+              <p class="project-desc">A mobile-first landing experience built for high conversion, fast performance scores, and elegant typography.</p>
+              <div class="project-tags">
+                <span class="project-tag">Responsive Web</span>
+                <span class="project-tag">Vanilla CSS</span>
+                <span class="project-tag">SEO</span>
+              </div>
+              <div class="project-links">
+                <a href="./project.html#project-3" class="btn btn-outline btn-sm">Read Case Study</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="./project.html" class="btn btn-primary" id="btn-all-projects">Explore All Projects &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-intro">
+          <span class="eyebrow">Connect</span>
+          <h2>Get in Touch</h2>
+          <p>Have a question, opportunity, or idea you'd like to discuss? Reach out below.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Details Card -->
+          <div class="contact-card">
+            <h3>Contact Information</h3>
+            <p>I am always interested in discussing new opportunities, creative collaborations, or engineering projects.</p>
+
+            <ul class="contact-info-list">
+              <li class="contact-info-item">
+                <span class="icon" aria-hidden="true">&#9993;</span>
+                <div>
+                  <strong>Email</strong><br>
+                  <a href="mailto:savannah.vasher@example.com">savannah.vasher@example.com</a>
+                </div>
+              </li>
+              <li class="contact-info-item">
+                <span class="icon" aria-hidden="true">&#128279;</span>
+                <div>
+                  <strong>LinkedIn</strong><br>
+                  <a href="https://linkedin.com/in/savannahvasher" target="_blank" rel="noopener noreferrer">linkedin.com/in/savannahvasher</a>
+                </div>
+              </li>
+              <li class="contact-info-item">
+                <span class="icon" aria-hidden="true">&#128421;</span>
+                <div>
+                  <strong>GitHub</strong><br>
+                  <a href="https://github.com/savannahvasher" target="_blank" rel="noopener noreferrer">github.com/savannahvasher</a>
+                </div>
+              </li>
+              <li class="contact-info-item">
+                <span class="icon" aria-hidden="true">&#128205;</span>
+                <div>
+                  <strong>Location</strong><br>
+                  <span>Austin, Texas &bull; Open to Remote</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-container">
+            <form id="contact-form" action="#" method="POST" onsubmit="event.preventDefault(); alert('Thank you for reaching out! This is currently a demo placeholder.');">
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Your Name</label>
+                <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. Jane Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Email Address</label>
+                <input type="email" id="contact-email" name="email" class="form-input" placeholder="e.g. jane@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">Subject</label>
+                <input type="text" id="contact-subject" name="subject" class="form-input" placeholder="e.g. Project Collaboration Opportunity" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Message</label>
+                <textarea id="contact-message" name="message" class="form-textarea" placeholder="Type your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" id="btn-submit-contact">Send Message &rarr;</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-logo" style="margin-bottom: 0.75rem;">
+            <span class="brand-badge">SV</span>
+            <span>Savannah Vasher</span>
+          </div>
+          <p>Personal portfolio designed with navy, cream, and gold aesthetics. Built with clean semantic HTML and modern CSS.</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./index.html#about">About</a></li>
+            <li><a href="./index.html#skills">Skills</a></li>
+            <li><a href="./index.html#experience">Experience</a></li>
+            <li><a href="./project.html">Projects</a></li>
+            <li><a href="./resume.html">Resume</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="mailto:savannah.vasher@example.com">Email Me</a></li>
+            <li><a href="https://linkedin.com/in/savannahvasher" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="https://github.com/savannahvasher" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="./index.html#contact">Contact Form</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Savannah Vasher. All rights reserved. &bull; Designed for GitHub Pages</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
