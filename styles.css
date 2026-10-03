@@ -1056,6 +1056,81 @@ a:hover, a:focus-visible {
   }
 }
 
+@media (max-width: 480px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  h1 {
+    font-size: 1.95rem;
+    word-break: break-word;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    word-break: break-word;
+  }
+
+  .btn-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn-group .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .timeline {
+    padding-left: 0;
+  }
+
+  .timeline::before {
+    left: 12px;
+  }
+
+  .timeline-marker {
+    left: 3px;
+    width: 18px;
+    height: 18px;
+  }
+
+  .timeline-item {
+    padding-left: 36px;
+    margin-bottom: 2rem;
+  }
+
+  .timeline-content {
+    padding: 1.25rem 1rem;
+  }
+
+  .timeline-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+
+  .resume-block-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+
+  .resume-title {
+    font-size: 1.85rem;
+  }
+
+  .resume-contact-inline {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .contact-card,
+  .contact-form-container {
+    padding: 1.75rem 1.25rem;
+  }
+}
+
 /* ==========================================================================
    Print Styles for Resume
    ========================================================================== */
